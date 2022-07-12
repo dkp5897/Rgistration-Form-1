@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+
+    <style>
+        #body{
+            border: 10px solid black;
+            background-color: blue;
+            height: 900px;
+
+            
+        }
+        #heading{
+            text-align: center;
+            background-color: black;
+            color: blanchedalmond;
+            font-size: 50px;
+            border-radius: 30px;
+        }
+        #form{
+            text-align: center;
+            font-size: large;
+            background-color: aqua;
+        }
+    </style>
+
+</head>
+<body id="body">
+    <h2 id="heading">User Registration form</h2>
+    <main>
+        <form id="form">
+            <div>
+                <label for="first name">First Name:</label>
+                <input id="first name" type="text" name="First Name"  placeholder="Your First Name">
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="second name">Second Name:</label>
+                <input id="second name" type="text" name="Second Name" placeholder="Your Second Name">
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="Email" placeholder="Your Email id">
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="pass">Passward:</label>
+                <input id="pass" type="password" name="Password" placeholder="Create Your Password">
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="confirm pass">Confirm Passward:</label>
+                <input id="confirm pass" type="password" name="Confirm Password" placeholder="Confirm Your Password">
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="DOB">Date of Birth:</label>
+                <input id="DOB" type="date" name="dob" >      
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="gender" id="gender">What is Your Gender ?</label><br>
+                <input type="radio" name="My gender">Male
+                <input type="radio" name="My gender">Femail
+                <input type="radio" name="My gender">Others
+                <input type="radio" name="My gender">prefer not to answer
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="answer">Tell us a littel bit About Yourself</label><br>
+                <textarea id="answer" placeholder="A brief description about yourself" cols="50" rows="10"></textarea>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="languages">What is your favorite Languages ?</label><br>
+                <select id="languages" name="Language">
+                    <option value="c">C</option>
+                    <option value="c++">C++</option>
+                    <option value="java">JAVA</option>
+                    <option value="python">Python</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <div>
+                <label for="submit">Submit Now:</label>
+                <input id="submit" type="submit" name="Submit">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
